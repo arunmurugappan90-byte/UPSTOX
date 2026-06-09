@@ -15,7 +15,9 @@
         "ref": "master"
       },
       "homepage": "https://github.com/upstox/upstox-skills",
-      "skills": "./skills",
+      "skills": [
+        "./skills/upstox"
+      ],
       "strict": false
     }
   ]

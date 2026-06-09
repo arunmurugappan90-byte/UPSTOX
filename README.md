@@ -1,17 +1,19 @@
 # upstox-plugin-marketplace
 
-The **`upstox-plugins-official`** [Claude Code](https://code.claude.com) plugin marketplace — a central catalog of Upstox plugins for Claude Code, starting with the [`upstox-skill`](https://github.com/upstox/upstox-skills) agent skill.
+## Claude Code
 
-## Installation
+Everything here runs inside [Claude Code](https://code.claude.com) — the `/plugin` commands are built-in Claude Code slash commands, and once installed you interact with the skill in plain English.
 
-Add the marketplace, then install a plugin from it:
+1. **Open Claude Code** in your terminal (or the desktop/IDE app).
+2. **Add the marketplace and install the skill** (one-time setup):
 
-```
-/plugin marketplace add upstox/upstox-plugin-marketplace
-/plugin install upstox-skill@upstox-plugins-official
-```
+   ```
+   /plugin marketplace add upstox/upstox-plugin-marketplace
+   /plugin install upstox-skill@upstox-plugins-official
+   ```
 
-## Featured: `upstox-skill`
+
+## Featured: [`upstox-skill`](https://github.com/upstox/upstox-skills)
 
 Trade and analyze Indian markets in plain English. The `upstox-skill` plugin connects Claude Code directly to your [Upstox](https://upstox.com) account through the official [`upstox-python-sdk`](https://github.com/upstox/upstox-python), turning natural-language requests into live actions on **NSE, BSE, and MCX** — across equities, F&O, and commodities.
 

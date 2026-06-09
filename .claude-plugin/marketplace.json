@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "upstox-plugins-official",
+  "description": "Marketplace for Upstox Claude Code plugins.",
+  "owner": {
+    "name": "Upstox"
+  },
+  "plugins": [
+    {
+      "name": "upstox-skill",
+      "description": "Agent skill for interacting with NSE/BSE equities, F&O, and MCX commodities via the Upstox Developer API.",
+      "source": {
+        "source": "github",
+        "repo": "upstox/upstox-skills",
+        "ref": "master"
+      },
+      "homepage": "https://github.com/upstox/upstox-skills",
+      "skills": "./skills",
+      "strict": false
+    }
+  ]
+}

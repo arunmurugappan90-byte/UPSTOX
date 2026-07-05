@@ -15,6 +15,9 @@
         "ref": "master"
       },
       "homepage": "https://github.com/upstox/upstox-skills",
+      "author": {
+        "name": "Upstox"
+      },
       "skills": [
         "./skills/upstox"
       ],
@@ -25,6 +28,9 @@
       "description": "Remote MCP server for the Upstox Developer API — live NSE/BSE/MCX market data and read-only account/portfolio access.",
       "source": "./plugins/upstox-mcp",
       "homepage": "https://upstox.com/developer/api-documentation/mcp-integration/",
+      "author": {
+        "name": "Upstox"
+      },
       "strict": true
     }
   ]

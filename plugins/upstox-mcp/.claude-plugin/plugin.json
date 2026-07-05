@@ -6,11 +6,5 @@
   "homepage": "https://upstox.com/developer/api-documentation/mcp-integration/",
   "author": {
     "name": "Upstox"
-  },
-  "mcpServers": {
-    "upstox": {
-      "type": "http",
-      "url": "https://mcp.upstox.com/mcp"
-    }
   }
 }

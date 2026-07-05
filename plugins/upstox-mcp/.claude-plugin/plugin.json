@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "upstox-mcp",
+  "description": "Remote MCP server for the Upstox Developer API — live NSE/BSE/MCX market data and read-only account/portfolio access over your own Upstox login.",
+  "version": "0.1.0",
+  "homepage": "https://upstox.com/developer/api-documentation/mcp-integration/",
+  "author": {
+    "name": "Upstox"
+  },
+  "mcpServers": {
+    "upstox": {
+      "type": "http",
+      "url": "https://mcp.upstox.com/mcp"
+    }
+  }
+}
